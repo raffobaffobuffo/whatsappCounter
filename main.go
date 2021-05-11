@@ -25,7 +25,7 @@ func findName(line string) (err error) {
 	if _, ok := db[name]; ok {
 		db[name] += 1
 	} else {
-		db[name] = 0
+		db[name] = 1
 	}
 	return
 	}
