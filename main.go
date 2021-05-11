@@ -88,6 +88,10 @@ func limitLength(s string, length int) string {
 var db = make(map[string]int)
 
 func main() {
+	if len(os.Args) < 2 {
+		fmt.Println("Usage ./main <file path>")
+		return
+	}
 	readByLine(os.Args[1])
 	fmt.Println(db)
 	return
