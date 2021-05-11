@@ -4,7 +4,7 @@ Go script to view the number of messages sent by components of a Whatsapp group 
 
 ## Usage
 Once you have exported the chat of your group on Whatsapp in format .txt 
-install golang on you device and build the script, then execute it 
+install golang on your device and build the script, then execute it 
 ```bash
 ~$ go build main.go
 ~$ ./main _chat.txt
